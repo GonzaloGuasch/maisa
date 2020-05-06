@@ -1,0 +1,44 @@
+.navBar-container{
+  margin-left: 115px;
+  margin-top: 20px;
+  width: max-content;
+  height: 27px;
+  margin-bottom: 12px;
+  overflow: hidden;
+
+}
+
+.navBar-container a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.navBar-container li:hover{
+  background-color: black;
+  color: white;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    float: left;
+
+    margin-right: 12px;
+    margin-bottom: auto;
+    font-size: 20px;
+    padding-right: 55px;
+    padding-left: 40px;
+
+  }
+  
+  li a {
+    display: block;
+    padding-right: 8px;
+  }
