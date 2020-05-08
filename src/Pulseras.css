@@ -1,0 +1,14 @@
+.image-container{
+    margin-top: 150px;
+    margin-left: 75px;
+
+}
+.pulseras-container{
+    display: flex;
+}
+
+.descripcion{
+    margin-top: 422px;
+    margin-left: 20px;
+    font-size: 30px;
+}

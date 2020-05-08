@@ -1,5 +1,27 @@
-.carrusel-container{
-    margin-left: 45%;
-    margin-top: 15%;
-    margin-bottom: 10%;
+slide-container {
+    width: 70%;
+    margin: auto; 
 }
+    
+    .each-slide > div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-size: cover;
+        height: 400px;
+      }
+    
+      .each-fade {
+        display: flex;
+      }
+      
+      .each-fade .image-container {
+        width: 75%;
+        overflow: hidden;
+      }
+      
+      .each-fade .image-container img {
+        width: 100%;
+      }
+      
+    
