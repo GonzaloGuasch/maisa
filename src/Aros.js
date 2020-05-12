@@ -21,21 +21,21 @@ export default function Aros(){
                 <div >
                     <img src={aroDos} className="aros-container"/>
                 </div>
-                <div className="description-container">Aros Nefertari medianos. Plata 925. $800</div>
+                <div className="description-container">Aros trepadores. Plata 925. $700</div>
             </div>
 
             <div className="image-description-container">
                 <div >
                     <img src={aroTres} className="aros-container"/>
                 </div>
-                <div className="description-container">Aros Nefertari medianos. Plata 925. $800</div>
+                <div className="description-container">Aros argolla chica con dije. Plata 925. $400</div>
             </div>
-            
+
             <div className="image-description-container">
                 <div >
                     <img src={aroCuatro} className="aros-container"/>
                 </div>
-                <div className="description-container">Aros Nefertari medianos. Plata 925. $800</div>
+                <div className="description-container">Aros argolla chicos. Plata 925. $300</div>
             </div>
 
         </Fragment>

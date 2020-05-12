@@ -1,0 +1,12 @@
+.gargantilla-description-container{
+    display:flex;
+}
+
+.description-gargantilla{
+    margin-top: 40px;
+    font-style: italic;
+    font-size: 30px;
+}
+.description-uno-gargantilla{
+    margin-bottom: 50px;
+}
