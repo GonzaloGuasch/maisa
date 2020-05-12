@@ -7,7 +7,7 @@ function NavBar(){
         <ul>
             <li><Link to= "/Aros" className="pestaña-container">Home</Link></li>
             <li><Link to= "/Pulseras" className="pestaña-container">Pulseras</Link></li>
-            <li><Link to= "/Pulseras" className="pestaña-container">Caenas</Link></li>
+            <li><Link to= "/Pulseras" className="pestaña-container">Cadenas</Link></li>
             <li><Link to= "/Colgantes" className="pestaña-container">Colgantes</Link></li>
             <li><Link to= "/Gargantilla" className="pestaña-container">Gargantillas</Link></li>
             <li><Link to= "/Aros" className="pestaña-container">Aros</Link></li>

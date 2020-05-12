@@ -1,11 +1,14 @@
 import React from 'react'
 import { Slide } from 'react-slideshow-image';
 import './Carrusel.css'
+import collarUno from '../src/images/collar_uno.jpeg'
+import collarDos from '../src/images/collar_dos.jpeg'
+import collarTres from '../src/images/collar_tres.jpeg'
 
 const slideImages = [
-    "http://cdn3.upsocl.com/wp-content/uploads/2019/05/Johnny-Bravo-hVKMu1juz-b.jpg",
-    "http://cdn3.upsocl.com/wp-content/uploads/2019/05/Johnny-Bravo-hVKMu1juz-b.jpg",
-    "http://cdn3.upsocl.com/wp-content/uploads/2019/05/Johnny-Bravo-hVKMu1juz-b.jpg"
+    collarUno,
+    collarDos, 
+    collarTres
   ];
    
   const properties = {

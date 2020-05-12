@@ -1,0 +1,19 @@
+.aros-container{
+    width: 550px;
+    height: 400px;
+}
+.image-description-container-uno{
+    display: flex;
+    margin-top: 150px;
+    margin-bottom: 12px;
+}
+
+.image-description-container{
+    display: flex;
+    margin-bottom: 12px;
+}
+
+.description-container{
+    font-size: 25px;
+    margin-top: 33px;
+}
