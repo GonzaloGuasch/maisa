@@ -1,7 +1,7 @@
 import React from 'react'
 import { Slide } from 'react-slideshow-image';
 import './Carrusel.css'
-import collarUno from '../src/images/collar_uno.jpeg'
+import collarUno from '../src/images/collar_seis.jpeg'
 import collarDos from '../src/images/collar_dos.jpeg'
 import collarTres from '../src/images/collar_tres.jpeg'
 
@@ -26,15 +26,18 @@ function Carrusel(){
     return( <div className="slide-container">
     <Slide {...properties}>
       <div className="each-slide">
-        <div style={{'backgroundImage': `url(${slideImages[0]})`}}>
+        <div style={{'backgroundImage': `url(${slideImages[0]})`,
+        'background-size':'contain'}}>
         </div>
       </div>
       <div className="each-slide">
-        <div style={{'backgroundImage': `url(${slideImages[1]})`}}>
+        <div style={{'backgroundImage': `url(${slideImages[1]})`,
+        'background-size':'contain'}}>
         </div>
       </div>
       <div className="each-slide">
-        <div style={{'backgroundImage': `url(${slideImages[2]})`}}>
+        <div style={{'backgroundImage': `url(${slideImages[2]})`,
+        'background-size':'contain'}}>
         </div>
       </div>
     </Slide>

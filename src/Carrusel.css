@@ -3,25 +3,14 @@ slide-container {
     margin: auto; 
 }
 
-    .each-slide > div {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-size: cover;
-        height: 360px;  
-    }
-    
-      .each-fade {
-        display: flex;
-      }
-      
-      .each-fade .image-container {
-        width: 75%;
-        overflow: hidden;
-      }
-      
-      .each-fade .image-container img {
-        width: 100%;
-      }
-      
-    
+.slide-container {
+  width: 100%;
+  margin: auto; }
+
+.each-slide > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 300px;
+}
