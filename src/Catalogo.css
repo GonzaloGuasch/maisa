@@ -9,7 +9,7 @@
   }
   .fila {
     display: flex;
-    margin-bottom: 150px;
+    margin-bottom: 12%;
   }
   .columna {
     flex: 33.3%;
@@ -52,4 +52,16 @@
 .nombre-producto{
   font-style: italic;
   font-size: 24px;
+}
+
+@media screen and (max-width: 600px){
+  .fila {
+    margin-bottom: 150px;
+  }
+
+  .columna {
+    flex: 100%;
+    padding: 5px;
+    margin-bottom: 15%;
+  }
 }
