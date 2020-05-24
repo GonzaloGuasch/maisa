@@ -19,3 +19,9 @@
     margin-left: 20px;
     font-style: italic
 }
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .aros-container{
+        width: 10%;
+    }
+}
