@@ -10,3 +10,17 @@
 .description-uno-gargantilla{
     margin-bottom: 50px;
 }
+
+.img-gargantilla{
+    width:400px;
+
+}
+
+@media (min-width: 400px) and (max-width: 767px){
+    .img-gargantilla{
+        width: 200px;
+    }
+    .description-gargantilla{
+        font-size: 17px;      
+    }
+}

@@ -14,3 +14,26 @@ ul li {
     margin-left: 20px;
     font-size: 30px;
 }
+
+.img-pulsera{
+    width:550px;
+    height:350;
+}
+
+@media (min-width: 400px) and (max-width: 767px){
+    .img-pulsera{
+        width:200px;
+        height:200;
+    }
+    .image-container{
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+    .descripcion{
+        margin-top:9px;
+        font-size: 20px;
+    }
+    ul li {
+        font-size: 13px;
+    }
+}

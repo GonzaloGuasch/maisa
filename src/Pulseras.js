@@ -11,7 +11,7 @@ function Pulseras(){
             <NavBar></NavBar>
             <div className="pulseras-container">
              <div className="image-container">
-                 <img src={pulseraUno} width="550px" height="350"/>
+                 <img src={pulseraUno} className="img-pulsera"/>
               </div>
               <div className="descripcion">
               De izquierda a derecha: 
@@ -27,7 +27,7 @@ function Pulseras(){
             <div className="pulseras-container">
             
              <div className="image-container">
-             <img src={pulseraDos} width="550px" height="350"/>
+             <img src={pulseraDos} className="img-pulsera"/>
               </div>
               <div className="descripcion">
                 <ul>

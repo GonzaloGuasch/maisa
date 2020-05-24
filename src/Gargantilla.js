@@ -8,7 +8,7 @@ export default function Gargantilla(){
         <Fragment>
         <NavBar/>
         <div className="gargantilla-description-container">
-             <div><img src={gargantillaUno} width="400px" heigh="300px"/></div>
+             <div><img src={gargantillaUno} className="img-gargantilla"/></div>
              <div className="description-gargantilla">
               <div className="description-uno-gargantilla">Gargantilla con pequeñas esferas. Plata 925. $600.</div>    
               <div>Gargantilla conos. Plata 925. $650</div>
