@@ -48,3 +48,8 @@
     color: white;
     transform: rotateY(180deg);
   }
+
+.nombre-producto{
+  font-style: italic;
+  font-size: 24px;
+}

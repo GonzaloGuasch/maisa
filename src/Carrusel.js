@@ -27,17 +27,17 @@ function Carrusel(){
     <Slide {...properties}>
       <div className="each-slide">
         <div style={{'backgroundImage': `url(${slideImages[0]})`,
-        'background-size':'contain'}}>
+        'backgroundSize':'contain'}}>
         </div>
       </div>
       <div className="each-slide">
         <div style={{'backgroundImage': `url(${slideImages[1]})`,
-        'background-size':'contain'}}>
+        'backgroundSize':'contain'}}>
         </div>
       </div>
       <div className="each-slide">
         <div style={{'backgroundImage': `url(${slideImages[2]})`,
-        'background-size':'contain'}}>
+        'backgroundSize':'contain'}}>
         </div>
       </div>
     </Slide>

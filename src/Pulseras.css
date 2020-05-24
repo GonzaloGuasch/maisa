@@ -6,7 +6,9 @@
 .pulseras-container{
     display: flex;
 }
-
+ul li {
+    font-style: italic;
+}
 .descripcion{
     margin-top: 222px;
     margin-left: 20px;
