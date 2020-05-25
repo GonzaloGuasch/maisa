@@ -20,8 +20,20 @@
     font-style: italic
 }
 
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 411px) and (max-width: 767px) {
     .aros-container{
-        width: 10%;
+        height: 200px;
+        width: 140px;
+    }
+    .image-description-container-uno{
+        display: flex;
+        margin-top: 20px;
+        margin-bottom: 12px;
+    }
+    .description-container{
+        font-size: 15px;
+        margin-top: 110px;
+        margin-left: 5px;
+        font-style: italic
     }
 }

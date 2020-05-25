@@ -8,7 +8,7 @@ function NavBar(){
                     <a href="/" class="active">Inicio</a>
                     <a href="/Pulseras">Pulseras</a>
                     <a href="/Gargantilla">Gargantillas</a>
-                    <a href="#about">About</a>
+                    <a href="/Aros">Aros</a>
                 </div>
             </Fragment>
            )
